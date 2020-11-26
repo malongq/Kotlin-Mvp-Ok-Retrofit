@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">马龙Kotlin</string>
+    <string name="register_title">账号注册</string>
+    <string name="register_86">+86</string>
+    <string name="register_content">我已阅读并同意  "\"用户协议"\"  和  "\"隐私协议"\"</string>
+    <string name="send_code_title">请输入验证码</string>
+    <string name="send_code_title_phone">验证码已发送至+86 18618187729</string>
+    <string name="send_code_title_phone_fix">修改</string>
+    <string name="send_code_count_time">重新获取</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--tab标签数组-->
+    <string-array name="title">
+        <item>首页</item>
+        <item>选课</item>
+        <item>学习</item>
+        <item>我的</item>
+    </string-array>
+
+    <!--选中数组-->
+    <integer-array name="select">
+        <item>@mipmap/main_bottom_default_icon1</item>
+        <item>@mipmap/main_bottom_default_icon2</item>
+        <item>@mipmap/main_bottom_default_icon3</item>
+        <item>@mipmap/main_bottom_default_icon4</item>
+    </integer-array>
+
+    <!--未选中数组-->
+    <integer-array name="unselect">
+        <item>@mipmap/main_bottom_selected_icon1</item>
+        <item>@mipmap/main_bottom_selected_icon2</item>
+        <item>@mipmap/main_bottom_selected_icon3</item>
+        <item>@mipmap/main_bottom_selected_icon4</item>
+    </integer-array>
+
+</resources>
