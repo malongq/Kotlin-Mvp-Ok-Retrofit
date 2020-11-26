@@ -17,7 +17,6 @@ import com.izk.izkkotlin.ui.main.view.SendCodeView
 import com.izk.izkkotlin.ui.utils.CountDownTime
 import com.izk.izkkotlin.ui.utils.CountDownTimeListener
 import kotlinx.android.synthetic.main.activity_send_code.*
-import java.util.logging.Handler as Handler1
 
 class SendCodeActivity : BaseActivity<SendCodeView, SendCodePresenter>(),SendCodeView,CountDownTimeListener {
 
