@@ -42,6 +42,15 @@ class SendCodeActivity : BaseActivity<SendCodeView, SendCodePresenter>(),SendCod
     override fun setError(err: String) {
         Toast.makeText(this,"模拟请求成功,进入下一页面",Toast.LENGTH_LONG).show()
 
+        //直接使线程休眠,程序不健壮,不建议使用
+//        Thread.sleep(3000)
+//        var intent:Intent = Intent(this@SendCodeActivity,StudyActivity::class.java)
+//        var bundle = Bundle()
+//        bundle.putString("name","ml")
+//        intent.putExtras(bundle)
+//        startActivity(intent)
+
+
         // 发送一条携带Bundle对象的消息
         val mMessage = obtain()
         val mBundle = Bundle()
