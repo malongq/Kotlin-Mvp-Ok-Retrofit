@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.act.SetActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="设置"
+            android:textColor="#333333"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:src="@mipmap/start_yellow_enable" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tb_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "夜间模式"
+                app:rightTitle = "哈哈"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "清除缓存"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "字体大小"
+                app:rightImgIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "列表显示摘要"
+                app:rightButtonIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "非WIFI网络流量"
+                app:rightImgIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "非WIFI网络播放提醒"
+                app:rightButtonIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "推送提示"
+                app:leftContent = "提示一下你"
+                app:rightImgIsShow = "true"
+                android:layout_height="60dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "推送关闭"
+                app:rightImgIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "提示音开关"
+                app:rightButtonIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "通知栏设置"
+                app:rightImgIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "点击返回获取新闻资讯"
+                app:rightTitle = "哈哈"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "H5广告过滤"
+                app:leftContent = "智能过滤广告,为你节省流量"
+                android:layout_height="60dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "允许推荐我给身边人"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "你瞅啥"
+                app:rightImgIsShow = "true"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "瞅你咋地"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "在瞅一个试试"
+                android:layout_height="45dp" />
+
+            <com.izk.izkkotlin.ui.view.SetPageItemView
+                android:layout_width="match_parent"
+                app:leftTitle = "试试就试试"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

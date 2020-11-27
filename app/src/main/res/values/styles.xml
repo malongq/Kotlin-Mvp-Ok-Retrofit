@@ -6,5 +6,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    
+    <style name="btn_off">
+        <item name="android:track">@drawable/register_back</item>
+        <item name="android:thumb">@drawable/register_back</item>
+        <item name="android:background">@null</item>
+        <item name="android:textOn"> </item>
+        <item name="android:textOff"> </item>
+        <item name="android:switchMinWidth">50dp</item>
+    </style>
 
 </resources>

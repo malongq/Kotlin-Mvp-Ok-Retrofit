@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SetPageItem">
+        <attr name="leftTitle" format="string"></attr>
+        <attr name="leftContent" format="string"></attr>
+        <attr name="rightTitle" format="string"></attr>
+        <attr name="rightImgIsShow" format="boolean"></attr>
+        <attr name="rightButtonIsShow" format="boolean"></attr>
+
+    </declare-styleable>
+
+</resources>

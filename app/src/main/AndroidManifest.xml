@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.main.act.StudyActivity"></activity>
+        <activity android:name=".ui.main.act.StudyActivity" />
         <activity
             android:name=".ui.main.act.MainActivity"
             android:theme="@style/Theme.Design.Light.NoActionBar">
@@ -27,6 +27,9 @@
             android:theme="@style/Theme.Design.Light.NoActionBar" />
         <activity
             android:name=".ui.main.act.SendCodeActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name=".ui.main.act.SetActivity"
             android:theme="@style/Theme.Design.Light.NoActionBar" />
     </application>
 
