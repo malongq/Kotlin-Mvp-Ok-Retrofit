@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
+        <ImageView
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/ic_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/start_yellow_enable"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/ic_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/c_cd0014"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="马先生"/>
+
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            app:layout_constraintLeft_toRightOf="@+id/ic_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/c_505050"
+            android:layout_marginLeft="10dp"
+            android:text="电话: 18618187777"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_1"
+        app:layout_constraintTop_toBottomOf="@+id/ic_icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="50sp"
-        android:gravity="center"
-        android:text="我的"/>
+        android:layout_height="wrap_content"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
